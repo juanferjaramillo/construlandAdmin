@@ -43,7 +43,7 @@ export default function TopBar (props) {
         <Grid item>
           <Typography
             component="div"
-            sx={{ fontSize: { xs: "100%", md: "130%", md: "160%" } }}
+            sx={{ fontSize: { xs: "100%", sm: "130%", md: "160%" } }}
           >
             {"Construye tu mundo"}
           </Typography>
@@ -53,7 +53,7 @@ export default function TopBar (props) {
           <Button
           variant="outlined"
           onClick={props.handleLogout}
-          sx={{color: "white",fontSize: { xs: "80%", md: "90%", md: "100%" }}}
+          sx={{color: "white",fontSize: { xs: "80%", sm: "90%", md: "100%" }}}
           >
             Salir
           </Button>
